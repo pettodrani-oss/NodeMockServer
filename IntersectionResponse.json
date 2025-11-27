@@ -1,0 +1,21 @@
+{
+    "filterId": "12345",
+    "nodes": [
+        {
+            "nodeName": "ITEMLOCATIONCUSTOMERINTERSECTIONTIMEFISCALWEEK",
+            "isAnchor": true,
+            "status": "success",
+            "dataUrl": "http://localhost:4000/download.parquet",
+            "schema": {
+                "fields": [
+                    { "dimensionId": "ITEM", "levelId": "ITEM" },
+                    { "dimensionId": "LOCATION", "levelId": "LOCATION" },
+					 { "dimensionId": "CUSTOMER", "levelId": "CUSTOMER" }
+                  
+                ]
+            },
+            "errorCode": null,
+            "errorMessage": null
+        }
+    ]
+}
